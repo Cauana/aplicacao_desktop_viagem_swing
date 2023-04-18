@@ -14,45 +14,6 @@ import javax.swing.JLabel;
  */
 public class Form1 extends javax.swing.JFrame {
 
-    public Form1(JButton jButton2, JButton jButton3, JButton jButton4, JLabel jLabel1) throws HeadlessException {
-        this.jButton2 = jButton2;
-        this.jButton3 = jButton3;
-        this.jButton4 = jButton4;
-        this.jLabel1 = jLabel1;
-    }
-
-    public void setjButton2(JButton jButton2) {
-        this.jButton2 = jButton2;
-    }
-
-    public void setjButton3(JButton jButton3) {
-        this.jButton3 = jButton3;
-    }
-
-    public void setjButton4(JButton jButton4) {
-        this.jButton4 = jButton4;
-    }
-
-    public void setjLabel1(JLabel jLabel1) {
-        this.jLabel1 = jLabel1;
-    }
-
-    public JButton getjButton2() {
-        return jButton2;
-    }
-
-    public JButton getjButton3() {
-        return jButton3;
-    }
-
-    public JButton getjButton4() {
-        return jButton4;
-    }
-
-    public JLabel getjLabel1() {
-        return jLabel1;
-    }
-
     /**
      * Creates new form Form1
      */

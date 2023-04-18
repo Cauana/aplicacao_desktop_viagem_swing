@@ -8,6 +8,19 @@ package com.mycompany.adriproject;
  *
  * @author Cauana
  */
-class JoptionPane {
+public class Veiculo {
+    private String tipo;
+
+    public Veiculo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
     
 }
